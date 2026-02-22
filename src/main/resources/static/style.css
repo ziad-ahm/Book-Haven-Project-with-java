@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/*! header */
+.header {
+    background-color: #F3F4F6;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.header img {
+    height: 60px;
+    width: auto;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.header li {
+    display: inline;
+}
+
+.header li i{
+    font-size: 25px;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.header nav a:hover {
+    color: #DB5408;
+    font-weight: 700;
+}
+
+/*! welcome section */
+
+.welcome-section {
+    background-color: #FFD6A5;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.welcome-text{
+    margin-left: 50px;
+}
+
+.welcome-section h1 {
+    font-size: 50px;
+    color: black;
+}
+
+.welcome-section p {
+    margin-bottom: 25px;
+    color: #666;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.welcome-section-img {
+    height: 600px;
+    width: auto;
+    margin-left: 300px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80px;
+}
+
+.welcome-text .shop-btn {
+    background-color: #DB5408;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+.welcome-text .shop-btn:hover {
+    background-color: #F3F4F6;
+    color: #DB5408;
+    border: 2px solid #DB5408;
+}
+
+/*! poplar-bocks */
+
+.poplar-bocks {
+    background-color: #fefefe;
+    height: 400px;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.poplar-bocks .section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #DB5408;
+    margin-bottom: 40px;
+}
+
+.section-title {
+    margin-bottom: 35px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #DB5408;
+    margin-bottom: 40px;
+}
+
+
+/*! Contact-us */
+
+.contact-us {
+    background: #fff7f1;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.contact-us .section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #DB5408;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #e66a30;
+    outline: none;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    padding: 12px 30px;
+    background-color: #DB5408;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e66a30;
+    transform: scale(1.05);
+}
+
+
+/*! footer */
+
+.footer {
+    background-color: #ffffff;
+    color: black;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* مسافة بين اللوجو و About Us */
+}
+
+.footer-left img {
+    height: 60px;
+    width: auto;
+}
+
+.about-us {
+    text-decoration: none;
+    color: #e66a30;
+    font-weight: 800;
+}
+
+.footer .social-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer .social-icons a {
+    color: black;
+    font-size: 30px; /* أصغر شوي */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+    color: #e66a30;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}

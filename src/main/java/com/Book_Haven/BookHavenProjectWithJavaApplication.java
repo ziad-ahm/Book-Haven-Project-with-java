@@ -1,0 +1,13 @@
+package com.Book_Haven;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BookHavenProjectWithJavaApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BookHavenProjectWithJavaApplication.class, args);
+	}
+
+}
